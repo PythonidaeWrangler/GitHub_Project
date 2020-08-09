@@ -1,15 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import time
 import pandas as pd
 import numpy as np
 
 
-# In[ ]:
+
 
 
 CITY_DATA = { 'Chicago': 'chicago.csv',
@@ -17,7 +12,7 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
               'Washington': 'washington.csv' }
 
 
-# In[ ]:
+
 
 
 def get_filters():
@@ -81,7 +76,7 @@ def get_filters():
     return city, month, day
 
 
-# In[ ]:
+
 
 
 def load_data(city, month, day):
