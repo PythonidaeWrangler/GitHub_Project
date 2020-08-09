@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+This project and README file were created on 09.08.2020.
 
-### Project Title
-Replace the Project Title
+### Udcaity GitHub Project
+
 
 ### Description
-Describe what your project is about and what it does
+This is the GitHub project for the Udacity Python for DS Nanodegree. It contains a python project reviewing data for a US bike share company. Users are able to review data for different cities and are able to have the program generate statistics on the data.
 
 ### Files used
-Include the files used
+BikeShare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity and Python for DS Nanodegree instructors. 
 

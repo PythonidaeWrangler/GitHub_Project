@@ -1,15 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import time
 import pandas as pd
 import numpy as np
 
 
-# In[ ]:
+
 
 
 CITY_DATA = { 'Chicago': 'chicago.csv',
@@ -17,7 +12,7 @@ CITY_DATA = { 'Chicago': 'chicago.csv',
               'Washington': 'washington.csv' }
 
 
-# In[ ]:
+
 
 
 def get_filters():
@@ -81,7 +76,7 @@ def get_filters():
     return city, month, day
 
 
-# In[ ]:
+
 
 
 def load_data(city, month, day):
@@ -119,11 +114,11 @@ def load_data(city, month, day):
     return df
 
 
-# In[ ]:
+
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays stats on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel, give me a sec to compute...\n')
     start_time = time.time()
@@ -142,11 +137,11 @@ def time_stats(df):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays stats on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -174,11 +169,11 @@ def station_stats(df):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays stats on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -200,11 +195,11 @@ def trip_duration_stats(df):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def user_stats(df,city):
-    """Displays statistics on bikeshare users."""
+    """Displays stats on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -246,7 +241,7 @@ def user_stats(df,city):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def main():
@@ -277,7 +272,7 @@ def main():
             break
 
 
-# In[ ]:
+
 
 
 if __name__ == "__main__":
