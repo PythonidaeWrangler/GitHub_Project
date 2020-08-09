@@ -5,7 +5,7 @@ This project and README file were created on 09.08.2020.
 
 
 ### Description
-This is the GitHub project for the Udacity Python for DS Nanodegree. It contains a python project.
+This is the GitHub project for the Udacity Python for DS Nanodegree. It contains a python project reviewing data for a US bike share company.
 
 ### Files used
 BikeShare.py
