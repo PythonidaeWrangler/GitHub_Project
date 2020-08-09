@@ -114,7 +114,7 @@ def load_data(city, month, day):
     return df
 
 
-# In[ ]:
+
 
 
 def time_stats(df):
@@ -137,7 +137,7 @@ def time_stats(df):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def station_stats(df):
@@ -169,7 +169,7 @@ def station_stats(df):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def trip_duration_stats(df):
@@ -195,7 +195,7 @@ def trip_duration_stats(df):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def user_stats(df,city):
@@ -241,7 +241,7 @@ def user_stats(df,city):
     print('-'*40)
 
 
-# In[ ]:
+
 
 
 def main():
@@ -272,7 +272,7 @@ def main():
             break
 
 
-# In[ ]:
+
 
 
 if __name__ == "__main__":
